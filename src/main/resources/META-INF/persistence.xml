@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="practcas.progra3_AplicacionWeb_war_1.0-SNAPSHOTPU" transaction-type="JTA">
+    <jta-data-source>java:app/Mortal2017</jta-data-source>
+    <class>practcas.progra3.aplicacionweb.Categoria</class>
+    <class>practcas.progra3.aplicacionweb.Cometario</class>
+    <class>practcas.progra3.aplicacionweb.Meta</class>
+    <class>practcas.progra3.aplicacionweb.Paso</class>
+    <class>practcas.progra3.aplicacionweb.Post</class>
+    <class>practcas.progra3.aplicacionweb.PostPaso</class>
+    <class>practcas.progra3.aplicacionweb.PostSeccion</class>
+    <class>practcas.progra3.aplicacionweb.Rol</class>
+    <class>practcas.progra3.aplicacionweb.RolCategoria</class>
+    <class>practcas.progra3.aplicacionweb.Seccion</class>
+    <class>practcas.progra3.aplicacionweb.TipoPaso</class>
+    <class>practcas.progra3.aplicacionweb.TipoPost</class>
+    <class>practcas.progra3.aplicacionweb.TipoPostSeccion</class>
+    <class>practcas.progra3.aplicacionweb.TipoSeccion</class>
+    <class>practcas.progra3.aplicacionweb.Usuario</class>
+    <class>practcas.progra3.aplicacionweb.UsuarioRolCategoria</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+  <persistence-unit name="practcas.progra3_AplicacionWeb_war_1.0-SNAPSHOTPU2" transaction-type="JTA">
+    <jta-data-source>java:app/Mortal2017</jta-data-source>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
